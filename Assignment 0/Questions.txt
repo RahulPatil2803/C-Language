@@ -1,0 +1,15 @@
+Assignment 0
+Algorithm Building:
+1. addition of 2 numbers.
+2. Write a program to calculate the percentage of student based on marks of 
+any 5 subjects.
+3. Write a program to calculate area of triangle.
+4. If area of room is 144 sq m. Then how many tiles of size 12*12 sq cm will 
+be required to cover the flooring of room.
+5. If there are 20 students who like football, 30 students like badminton and 
+10 like both. There are 20 who are not interested in any of the games. How 
+many total number of students are there?
+6. Convert the time entered in hr , min and sec into seconds.
+7. Find total length of wire required for n fences around rectangular box 
+horizontally.
+8. Assign two number and swap it using third variable.
