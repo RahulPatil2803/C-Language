@@ -2,8 +2,9 @@
 
 #include<stdio.h>
 void main(){
-    int price=6000,discount;
-    float dis_price;
+    int price=8000,discount;
+
+    float dis_price,dis_price1;
 
 
     if(price>=10000)
@@ -20,7 +21,8 @@ void main(){
         printf("No discount apply on %d price !\n",price);
     }
 
-    dis_price=(price*discount)/100;
+    dis_price=((price*discount)/100);
+    dis_price1=price-dis_price;
     printf("Discount apply %d Percent\n",discount);
-    printf("Discounted Price Will be:%.2f",dis_price);
+    printf("Discounted Price Will be:%f",dis_price1);
 }
