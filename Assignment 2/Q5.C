@@ -23,6 +23,6 @@ int main()
             printf("No discount aaply on %f\n",price);
     }
     printf("Discount will be %f percent\n",discount);
-    dis_price=(price*discount)/100;
+    dis_price=((price*discount)/100)-price;
     printf("Discounted Price will be %f",dis_price);
 }
