@@ -1,11 +1,12 @@
 // Type III (With return type & with parameter)
 
 #include<stdio.h>
-float basic_salary(float);
-float std_discount(float);
-;void main(){
+double basic_salary(double);
+double std_discount(double);
+void main(){
 
-    float prc,n;
+    double prc;
+    int n;
     printf("Enter any option from Menu\n1.basic_Salary\n2.Student Discount :\n");
     scanf("%d",&n);
     printf("Enter Price for opration:");
@@ -15,10 +16,13 @@ float std_discount(float);
         basic_salary(prc);
     }
     else if(n==2){
-           std_discount(prc);
+        std_discount(prc);
+    }
+    else{
+        printf("Wrong choice !");
     }
 }
-float basic_salary(float price)
+double basic_salary(double price)
 {
     int discount;
     float dis_price,dis_price1;
@@ -41,15 +45,15 @@ float basic_salary(float price)
     printf("Discount apply %d Percent\n",discount);
     printf("Discounted Price Will be:%f",dis_price1);
 }
-float std_discount(float price)
+double std_discount(double price)
 {
-    float discount,dis_price;
-    char ch;
-    printf("Sudent / not(y/n):");
-    scanf("%d",&ch);
+   // double price;
+    int discount,dis_price;
+    char ch='y';
 
     if (ch == 'y'||ch == 'Y') 
     {
+        printf("Student\n");
         if (price > 500) 
             discount = 20;
          else 
@@ -57,12 +61,13 @@ float std_discount(float price)
     } 
     else 
     {
+        printf("Not student");
         if (price > 600) 
             discount = 15;
             else
             printf("No discount aaply on %f\n",price);
     }
-    printf("Discount will be %f percent\n",discount);
+    printf("Discount will be %d percent\n",discount);
     dis_price=((price*discount)/100)-price;
-    printf("Discounted Price will be %f",dis_price);
+    printf("Discounted Price will be %d",dis_price);
 }
