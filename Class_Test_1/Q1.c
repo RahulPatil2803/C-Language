@@ -13,6 +13,6 @@ void main(){
     scanf("%d",&sec);
  
 
-    float Total_sec=(hr*216000)+(min*3600)+sec;
+    float Total_sec=(hr*3600)+(min*60)+sec;
     printf("Total sec is %f",Total_sec);
 }
