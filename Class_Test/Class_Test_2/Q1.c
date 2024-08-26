@@ -1,4 +1,4 @@
-// calculate electricuty bill For 1-5o unit :30rs/unit..... 2.51-150unit :40 ......above 151 :50rs
+// calculate "Electricity Bill" For range (1-50 Unit for 30rs ),(51-150 Unit for 40rs ),(Above 151 Unit for 50rs ).
 #include<stdio.h>
 void main(){
     double unit,res;
@@ -22,6 +22,6 @@ void main(){
     else{
         printf("Wrong choice");
     }
-    printf("Bill will be : %d",res);
+    printf("Electricity Bill will be : %d $",res);
 
 }
