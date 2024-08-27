@@ -1,5 +1,5 @@
 // Swaping program using third variable.
-//Use Memory diagram.
+
 #include<stdio.h>
 void swap(int*,int*);
 void main(){
