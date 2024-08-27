@@ -1,4 +1,4 @@
-// Swaping program using third variable.
+// Swaariable.
 
 #include<stdio.h>
 void swap(int*,int*);
