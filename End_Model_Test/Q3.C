@@ -61,8 +61,8 @@ for(int i=0;i<n;i++){
 		printf("\n%lf",arr[i].price);
 
 		printf("\nGST should be :");
-		GST=arr[i].price-(discount*18)/100;
-		printf("\nTotal Price after deducting GST :%d",GST);
+		GST=arr[i].price+(discount*18)/100;     // GST should be added in base or original value .
+		printf("\nTotal Price after deducting GST :%d",GST);    // Display the value with including GST .
 
 
 	}
