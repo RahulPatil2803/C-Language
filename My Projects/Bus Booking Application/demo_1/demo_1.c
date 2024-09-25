@@ -12,7 +12,7 @@ struct Book {
 
 void AddBook(struct Book *book);
 void AddBooks(struct Book **books, int *n, int count);
-void DisplayBook(struct Book *books, int n);
+void DisplayBook(struct Book *books, int n);  //trial
 int Search(struct Book *books, int n, char *query);
 void Update(struct Book *books, int n);
 void Delete(struct Book *books, int *n);
