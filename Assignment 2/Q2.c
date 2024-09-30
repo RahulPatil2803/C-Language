@@ -3,7 +3,7 @@
 #include<stdio.h>
 void main(){
     int a=100,b=20,c=30;
-
+// hello moto 
     if(a>b){
         if(a>c)
             printf("%d is greater",a);
